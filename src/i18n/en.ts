@@ -1,7 +1,7 @@
 export default {
   systemTitle: '🚀 My Nextra Starter',
   banner: {
-    title: '👋 Hey there! Welcome to the Next.js Starter.',
+    title: '👋 Hey there! Welcome to the Next.yt.',
     more: 'Check it out',
   },
   pageTitle: 'On This Page',

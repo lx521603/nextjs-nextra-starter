@@ -1,9 +1,9 @@
 {
-  "name": "nextjs-nextra-starter",
+  "name": "Next.yt",
   "type": "module",
   "version": "0.0.1",
   "description": "Next.js Nextra (v4) Tailwind CSS (v4) docs starter",
-  "author": "Wisdom <pdsu.wwz@foxmail.com>",
+  "author": "Sai <x@glee.ch>",
   "license": "MIT",
   "homepage": "https://github.com/pdsuwwz/nextjs-nextra-starter#readme",
   "repository": {

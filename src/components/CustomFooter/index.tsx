@@ -52,17 +52,17 @@ export function CustomFooter() {
 
         <div className="flex items-center gap-[2px]">
           <span className="pl-[4px]">
-            Copyright ©
+            ©
             {' '}
             { new Date().getFullYear() }
           </span>
           <UnderlineLink
-            link="https://github.com/pdsuwwz"
+            link="https://github.com/lx521603"
             label={(
               <>
                 <span className="animate-[heartbeat_1.5s_infinite] mr-[3px]">❤️</span>
                 {' '}
-                Wisdom
+                Next.yt
               </>
             )}
           />
