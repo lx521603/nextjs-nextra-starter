@@ -1,7 +1,7 @@
 export default {
-  systemTitle: '🚀 Next.yt',
+  systemTitle: '🚀 薇薇的美妆小站',
   banner: {
-    title: '👋 嘿，欢迎来到 Next.yt!',
+    title: '👋 嘿，欢迎来到薇薇的美妆小站!velvify.com',
     more: '了解详情',
   },
   pageTitle: '当前页面',
@@ -14,8 +14,8 @@ export default {
     loading: '加载中...',
   },
 
-  badgeTitle: '轻量级、开箱即用 🎉',
-  featureSupport: `🔥 现在支持 {{feature}}！`,
+  badgeTitle: '薇薇的推荐！ 🎉',
+  featureSupport: `🔥 新品上市！！！`,
   lastUpdated: '最后更新于:',
 
   getStarted: '开始使用',
@@ -28,44 +28,44 @@ export default {
   },
 
   featureList: [
-    {
-      title: '先进的技术栈',
-      description: '高效的 React (v19) 框架，使用 Next.js、Nextra(v4) 和 Shadcn UI 打造现代化应用',
-    },
-    {
-      title: '国际化支持 (i18n)',
-      description: '内置多语言支持，轻松实现应用的国际化，扩大用户群体',
-    },
-    {
-      title: 'TypeScript 类型安全',
-      description: '全面集成 TypeScript，提供静态类型检查，减少运行时错误，提高代码可靠性和可维护性',
-    },
-    {
-      title: 'Iconify 图标集',
-      description: '纯 CSS 图标, 集成 Iconify 图标集，提供丰富的图标选择，增强 UI 视觉表现',
-    },
-    {
-      title: 'Tailwind CSS (v4)',
-      description: '使用原子化 CSS 框架 Tailwind CSS，快速构建高效设计、响应式界面 UI',
-    },
-    {
-      title: '代码规范',
-      description: '遵循最佳实践的代码规范，结合 ESLint 进行代码质量检查与一致性维护',
-    },
-    {
-      title: '暗黑模式',
-      description: '支持暗黑模式，提供更好的夜间使用体验',
-    },
-    {
-      title: '丰富组件 & 支持自由扩展',
-      description: '提供丰富的预置组件，并支持灵活的自定义扩展',
-    },
-    {
-      title: '轻量化设计',
-      description: '采用轻量化设计，精简项目设置，专注于内容编写',
-    },
-  ],
-  featuresDesc: '轻松构建现代应用，快速启动您的开发流程',
+{
+title: '「无瑕持妆」粉底液',
+description: '超持久锁妆配方，抗汗抗油，能牢牢锁住妆效长达16小时，告别中途补妆的烦恼。',
+},
+{
+title: '「水光缎带」粉底液',
+description: '专为干性肌肤打造，水润不卡粉，呈现细腻的缎光光泽，实现长效水感持妆。',
+},
+{
+title: '「全天候控油」粉底液',
+description: '油皮挚爱，智能吸附多余油脂，雾面妆效持久在线，全天拒绝油光满面。',
+},
+{
+title: '「柔焦持妆」气垫',
+description: '一拍磨皮，高遮瑕同时保持清透，持妆力卓越，是快速上妆与持久妆效的完美结合。',
+},
+{
+title: '「水光精粹」养肤水',
+description: '蕴含高浓度修护精华，瞬间渗透，为肌肤注足水分，从源头打造水光肌底。',
+},
+{
+title: '「赋活修护」精华面霜',
+description: '深彻滋养，强韧屏障，夜间修护，日间防护，让肌肤重获紧致与弹润。',
+},
+{
+title: '「丝绒哑光」持色唇膏',
+description: '浓郁显色，一抹成绒，轻盈不拔干，锁色持久，轻松打造高级雾感妆容。',
+},
+{
+title: '「净澈清透」卸妆油',
+description: '遇水即刻乳化，深层溶解顽固彩妆，清爽不油腻，洗后肌肤水润不紧绷。',
+},
+{
+title: '「强韧丰盈」洗发水',
+description: '专为脆弱发质设计，清洁头皮的同时强韧发根，减少断发，重现发丝活力与丰盈。',
+},
+],
+  featuresDesc: '轻松实现持久服帖的完美妆面，定格精致，一整日不脱妆。',
   faqs: [
     {
       question: '这个启动模板支持哪些框架和技术栈？',

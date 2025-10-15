@@ -22,7 +22,6 @@ export default withNextra({
     locales: ['zh', 'en'],
     defaultLocale: 'zh',
   },
-
   sassOptions: {
     silenceDeprecations: ['legacy-js-api'],
   },

@@ -233,3 +233,25 @@
     cursor: pointer;
   }
 }
+
+/* 隐藏 Nextra 底部操作栏的语言切换器 */
+button[title="Change language"],
+#headlessui-listbox-button-_R_dlv59etb_,
+.x\:cursor-pointer.x\:h-7.x\:rounded-md {
+  display: none !important;
+}
+
+/* 隐藏整个底部操作栏（如果只想隐藏语言切换，可以不用这个） */
+.nextra-nav-container,
+[data-nextra-nav] {
+  display: none !important;
+}
+
+/* 确保隐藏所有可能的语言切换元素 */
+[title="Change language"],
+button[x\:cursor-pointer] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

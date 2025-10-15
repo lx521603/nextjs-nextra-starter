@@ -57,12 +57,12 @@ export function CustomFooter() {
             { new Date().getFullYear() }
           </span>
           <UnderlineLink
-            link="https://github.com/lx521603"
+            link="https://velvify.com"
             label={(
               <>
                 <span className="animate-[heartbeat_1.5s_infinite] mr-[3px]">❤️</span>
                 {' '}
-                Next.yt
+                薇薇的美妆小站
               </>
             )}
           />
@@ -72,11 +72,11 @@ export function CustomFooter() {
           orientation="vertical"
           className="max-sm:hidden h-5 mx-2"
         />
-        <div className="flex justify-center h-5 items-center space-x-2 text-sm">
+        {/*<div className="flex justify-center h-5 items-center space-x-2 text-sm">
           <ThemeToggle />
           <Separator orientation="vertical" />
           <LocaleToggle />
-        </div>
+        </div>*/}
 
       </div>
     </div>

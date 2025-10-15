@@ -80,8 +80,8 @@ export default function HomepageHero() {
         </a>
       </div> */}
       <div className="relative z-1 pb-10 md:pb-[100px]">
-        <Section
-          title="Tech Stack"
+      {/*  <Section
+          title="技术栈"
           titleProps={{
             disabledAnimation: false,
           }}
@@ -108,17 +108,17 @@ export default function HomepageHero() {
               <StackItem className="icon-[line-md--iconify1]" />
             </Marquee>
           </div>
-        </Section>
+        </Section>*/}
         <Section
-          title="Features"
+          title="精选产品"
           description={t('featuresDesc')}
         >
           <div className="flex justify-center w-full max-w-7xl">
             <HoverEffect items={processedFeatureList} />
           </div>
         </Section>
-        <Section
-          title="Frequently Asked Questions"
+        {/*<Section
+          title="热门问题"
           tallPaddingY
         >
           <Accordion
@@ -140,7 +140,7 @@ export default function HomepageHero() {
               ))
             }
           </Accordion>
-        </Section>
+        </Section>*/}
       </div>
     </>
   )

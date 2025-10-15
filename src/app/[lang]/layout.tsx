@@ -19,11 +19,11 @@ import './styles/index.css'
 export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
-  metadataBase: new URL('https://nextjs-nextra-starter-green.vercel.app'),
+  metadataBase: new URL('https://velvify.com'),
   icons: '/img/favicon.svg',
 } satisfies Metadata
 
-const repo = 'https://github.com/pdsuwwz/nextjs-nextra-starter'
+const repo = 'https://sorayt.com'
 
 const CustomBanner = async ({ lang }: I18nLangAsyncProps) => {
   const { t } = await useServerLocale(lang)
@@ -58,7 +58,9 @@ const CustomNavbar = async ({ lang }: I18nLangAsyncProps) => {
       projectLink={repo}
     >
       <>
+        {/* 注释掉语言切换器，保留主题切换
         <LocaleToggle className="max-md:hidden" />
+        */}
         <ThemeToggle className="max-md:hidden" />
       </>
 
@@ -144,7 +146,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
               </LastUpdated>
             )}
             editLink={null}
-            docsRepositoryBase="https://github.com/pdsuwwz/nextjs-nextra-starter"
+            docsRepositoryBase="https://mia.yt"
             footer={(
               <Footer className="bg-background py-5!">
                 <CustomFooter />

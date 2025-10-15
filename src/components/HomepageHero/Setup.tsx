@@ -20,7 +20,7 @@ export function SetupHero(props: Props) {
         <div className={styles.badgeContainer}>
           <a
             className={styles.badge}
-            href="https://github.com/lx521603/nextjs-nextra-starter"
+            href="https://sorayt.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,18 +35,18 @@ export function SetupHero(props: Props) {
             <span className="icon-[emojione-v1--lightning-mood]"></span>
           </MotionWrapperFlash>
           {' '}
-          Nextra
+          Dopi
           {' '}
           <br className="sm:hidden"></br>
           {' '}
-          Starter
+          不脱妆
           <br className="sm:hidden"></br>
           {' '}
-          Template
+          粉底液
         </h1>
 
         <Link
-          href={`/${currentLocale}/upgrade`}
+          href="https://sorayt.com"
           className={clsx([
             'bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 text-white shadow-lg',
             'dark:bg-linear-to-r dark:from-green-400 dark:via-teal-500 dark:to-cyan-500 dark:text-white',
@@ -68,48 +68,48 @@ export function SetupHero(props: Props) {
           'text-neutral-500 dark:text-neutral-300',
         ])}
         >
-          Template made
+          Dopi不脱妆粉底液
           {' '}
           <FlipWords
             words={[
-              'Fast',
-              'Simple',
-              'Modern',
-              'Flexible',
-              'Easy',
-              'Functional',
-              'Efficient',
-              'Scalable',
-              'Reusable',
+              '美白',
+              '防水',
+              '防汗',
+              '24小时',
+              '长久持妆',
+              '遮瑕',
+              '气垫',
+              '细腻',
+              '服帖',
             ]}
           />
           <br />
           With
           {' '}
           <LinkPreview
-            url="https://nextjs.org"
+            url="https://sorayt.com"
           >
-            Next.js
+            你身边
           </LinkPreview>
           ,
           {' '}
           <LinkPreview
-            url="https://tailwindcss.com"
+            url="https://oni.yt"
           >
-            Tailwind CSS
+            懂你的
           </LinkPreview>
-          , and
+            美妆
           {' '}
           <LinkPreview
-            url="https://ui.shadcn.com"
+            url="https://adarez.com"
           >
-            Shadcn UI
+            专家
           </LinkPreview>
           {', '}
           <LinkPreview
-            url="https://ui.aceternity.com"
+            url="https://fairy.li"
           >
-            Aceternity UI
+            Dopi
           </LinkPreview>
         </div>
         <div className="flex justify-center pt-10">
@@ -120,7 +120,7 @@ export function SetupHero(props: Props) {
               className="font-bold group max-sm:w-[100%]"
             >
               <Link
-                href={`/${currentLocale}/introduction`}
+                href="https://velvify.com/zh/introduction"
               >
                 {t('getStarted')}
                 <span className="w-[20px] translate-x-[6px] transition-all group-hover:translate-x-[10px] icon-[mingcute--arrow-right-fill]"></span>
@@ -133,10 +133,10 @@ export function SetupHero(props: Props) {
               className="font-bold group max-sm:w-[100%]"
             >
               <Link
-                href="https://github.com/lx521603/nextjs-nextra-starter"
+                href="https://velvify.com/zh/upgrade"
                 target="_blank"
               >
-                Github
+                联系方式
                 <span className="ml-[6px] icon-[mingcute--github-line]"></span>
               </Link>
             </Button>
