@@ -20,7 +20,7 @@ export function SetupHero(props: Props) {
         <div className={styles.badgeContainer}>
           <a
             className={styles.badge}
-            href="https://sorayt.com"
+            href="/zh/docs/dopiffs"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ export function SetupHero(props: Props) {
         </h1>
 
         <Link
-          href="https://sorayt.com"
+          href="/zh/docs/newfdy"
           className={clsx([
             'bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 text-white shadow-lg',
             'dark:bg-linear-to-r dark:from-green-400 dark:via-teal-500 dark:to-cyan-500 dark:text-white',
@@ -120,7 +120,7 @@ export function SetupHero(props: Props) {
               className="font-bold group max-sm:w-[100%]"
             >
               <Link
-                href="https://velvify.com/zh/introduction"
+                href="/zh/docs/products"
               >
                 {t('getStarted')}
                 <span className="w-[20px] translate-x-[6px] transition-all group-hover:translate-x-[10px] icon-[mingcute--arrow-right-fill]"></span>
@@ -133,7 +133,7 @@ export function SetupHero(props: Props) {
               className="font-bold group max-sm:w-[100%]"
             >
               <Link
-                href="https://velvify.com/zh/upgrade"
+                href="/zh/upgrade"
                 target="_blank"
               >
                 联系方式

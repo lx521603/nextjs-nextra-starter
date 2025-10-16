@@ -1,8 +1,8 @@
 export default {
   systemTitle: '🚀 薇薇的美妆小站',
   banner: {
-    title: '👋 嘿，欢迎来到薇薇的美妆小站!velvify.com',
-    more: '了解详情',
+    title: '👋 嘿，欢迎来到薇薇美妆，访问薇薇日常请 ➡️',
+    more: '点击跳转',
   },
   pageTitle: '当前页面',
   backToTop: '返回顶部',

@@ -23,7 +23,7 @@ export const metadata = {
   icons: '/img/favicon.svg',
 } satisfies Metadata
 
-const repo = 'https://sorayt.com'
+const repo = 'https://adarez.com'
 
 const CustomBanner = async ({ lang }: I18nLangAsyncProps) => {
   const { t } = await useServerLocale(lang)
@@ -146,7 +146,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
               </LastUpdated>
             )}
             editLink={null}
-            docsRepositoryBase="https://mia.yt"
+            docsRepositoryBase="https://adarez.com"
             footer={(
               <Footer className="bg-background py-5!">
                 <CustomFooter />
