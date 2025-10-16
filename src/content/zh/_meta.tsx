@@ -19,13 +19,13 @@ export default {
     },
   },
   docs: {
-    title: '📦 产品介绍',
+    title: '💄 产品介绍',
     type: 'page',
   },
   upgrade: {
     title: (
       <span className="flex items-center leading-[1]">
-        联系方式
+        📧联系方式
         <TitleBadge />
       </span>
     ),
