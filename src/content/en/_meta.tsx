@@ -9,6 +9,7 @@ export default {
       timestamp: false,
       layout: 'full',
       toc: false,
+      copyPage: false, // ✅ 新增这一行
     },
   },
   introduction: {

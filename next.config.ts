@@ -19,7 +19,7 @@ export default withNextra({
   reactStrictMode: true,
   cleanDistDir: true,
   i18n: {
-    locales: ['zh', 'en'],
+    locales: ['zh'],
     defaultLocale: 'zh',
   },
 
