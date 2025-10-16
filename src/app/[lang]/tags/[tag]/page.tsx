@@ -35,7 +35,7 @@ export default async function TagPage({
                 </a>
               </h2>
               <div className="flex flex-wrap gap-2 mt-2">
-                {post.tags.map(t => (
+                {post.tags.map((t: string) => (
                   <a
                     key={t}
                     href={`/${lang}/tags/${encodeURIComponent(t)}`}

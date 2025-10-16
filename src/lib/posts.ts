@@ -6,8 +6,9 @@ export async function getAllContent(lang: string) {
     const pageMap = await getPageMap(lang)
     console.log('=== 详细调试信息 ===')
     
-    const allContent = []
-    const allTags = []
+    // 修复：添加类型定义
+    const allContent: any[] = []
+    const allTags: string[] = []
     
     // 深度遍历 pageMap
     function traverse(node: any, path: string = '') {
