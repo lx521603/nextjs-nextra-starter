@@ -31,4 +31,9 @@ export default {
     ),
     type: 'page',
   },
+  tags: {
+    title: '🏷️ 标签',
+    type: 'page',
+    href: '/zh/tags', // 放在最后
+  },
 } satisfies MetaRecord
