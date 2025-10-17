@@ -3,41 +3,29 @@
 # ===========================
 
 [build]
+  # 解决 pnpm 锁文件问题 + 构建
   command = "pnpm install --no-frozen-lockfile && pnpm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
-  NEXT_TELEMETRY_DISABLED = "1"
-  # 强制关闭 Turbopack（Next.js 15 默认开启）
-  NEXT_DISABLE_TURBOPACK = "1"
-  # 避免旧缓存导致 snapshot 错误
-  NETLIFY_USE_YARN_CACHE = "false"
-  # 指定 React 构建环境
   NODE_ENV = "production"
 
-# ===========================
-# ✅ 修复 Turbopack/SWC 构建问题
-# ===========================
+  # ✅ 禁用 Turbopack（Next.js 15）
+  NEXT_DISABLE_TURBOPACK = "1"
+
+  # ✅ 禁用 Edge runtime，防止 snapshot 报错
+  NEXT_RUNTIME = "nodejs"
+
+  # ✅ 禁用 telemetry
+  NEXT_TELEMETRY_DISABLED = "1"
+
+  # ✅ 关闭缓存处理
+  NETLIFY_USE_YARN_CACHE = "false"
+
 [build.processing]
   skip_processing = true
 
-# ===========================
-# ✅ 通过 Edge Functions 禁用 experimental runtime
-# ===========================
+# ✅ 插件声明（不再加 inputs）
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-  [plugins.inputs]
-    # 明确使用 webpack 而不是 Turbopack
-    disableTurbopack = true
-    # 禁用 Edge Runtime，以防 snapshot 冲突
-    edge_functions = false
-
-# ===========================
-# ✅ 构建后行为（可选）
-# ===========================
-[build.lifecycle]
-  onBuild = "echo '✅ 构建开始...'"
-  onSuccess = "echo '🎉 构建成功，无 snapshot 报错!'"
-  onError = "echo '💥 构建失败，检查 Next.js 与 React 版本!'"
