@@ -1,31 +1,27 @@
-# ===========================
-# ✅ Netlify 构建配置文件
-# ===========================
-
+cat > netlify.toml << 'EOF'
 [build]
-  # 解决 pnpm 锁文件问题 + 构建
-  command = "pnpm install --no-frozen-lockfile && pnpm run build"
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
-  NODE_ENV = "production"
-
-  # ✅ 禁用 Turbopack（Next.js 15）
-  NEXT_DISABLE_TURBOPACK = "1"
-
-  # ✅ 禁用 Edge runtime，防止 snapshot 报错
-  NEXT_RUNTIME = "nodejs"
-
-  # ✅ 禁用 telemetry
   NEXT_TELEMETRY_DISABLED = "1"
+  # 禁用 Turbopack 避免兼容性问题
+  TURBOPACK = "0"
 
-  # ✅ 关闭缓存处理
-  NETLIFY_USE_YARN_CACHE = "false"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
-[build.processing]
-  skip_processing = true
-
-# ✅ 插件声明（不再加 inputs）
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# 优化构建设置
+[functions]
+  node_bundler = "esbuild"
+
+[dev]
+  publish = ".next"
+  target = "experimental"
+EOF

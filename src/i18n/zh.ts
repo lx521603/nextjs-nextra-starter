@@ -1,7 +1,7 @@
 export default {
   systemTitle: '🚀 薇薇的美妆小站',
   banner: {
-    title: '👋 嘿，欢迎访问薇薇日常请 ➡️',
+    title: '👋 嘿，欢迎查看薇薇日常请 ➡️',
     more: '点击跳转',
   },
   pageTitle: '当前页面',
@@ -14,11 +14,11 @@ export default {
     loading: '加载中...',
   },
 
-  badgeTitle: '薇薇的推荐！ 🎉',
+  badgeTitle: '点击访问薇薇日常！ 🎉',
   featureSupport: `🔥 新品上市！！！`,
   lastUpdated: '最后更新于:',
 
-  getStarted: '开始使用',
+  getStarted: '产品大全',
 
   themeSwitcher: {
     light: '浅色模式',

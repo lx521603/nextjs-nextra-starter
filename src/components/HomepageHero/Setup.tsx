@@ -20,7 +20,7 @@ export function SetupHero(props: Props) {
         <div className={styles.badgeContainer}>
           <a
             className={styles.badge}
-            href="/zh/docs/dopiffs"
+            href="https://adarez.com"
             target="_blank"
             rel="noopener noreferrer"
           >
