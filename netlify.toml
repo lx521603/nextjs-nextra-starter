@@ -7,8 +7,8 @@
   NEXT_TELEMETRY_DISABLED = "1"
 
 # 移除冲突的重写规则，让 Next.js 处理路由
-[[plugins]]
-  package = "netlify-plugin-one"
+#[[plugins]]
+#  package = "netlify-plugin-one"
 
 # 如果需要，只对非静态文件的路由进行回退
 [[redirects]]
