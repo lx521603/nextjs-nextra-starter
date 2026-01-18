@@ -13,16 +13,12 @@ export default withNextra({
   images: {
     unoptimized: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   reactStrictMode: true,
   cleanDistDir: true,
   i18n: {
-    locales: ['zh'],
+    locales: ['zh', 'en'],
     defaultLocale: 'zh',
   },
-
   sassOptions: {
     silenceDeprecations: ['legacy-js-api'],
   },
