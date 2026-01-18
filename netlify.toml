@@ -3,17 +3,8 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "20"
-  NEXT_TELEMETRY_DISABLED = "1"
-
-# 移除冲突的重写规则，让 Next.js 处理路由
-#[[plugins]]
-#  package = "netlify-plugin-one"
-
-# 如果需要，只对非静态文件的路由进行回退
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
-  conditions = {Language = ["en"], Country = ["US"]}
+  NEXT_DISABLE_EDGE = "true"
+  NEXT_PUBLIC_USE_EDGE = "false"
+  
+[functions]
+  "*" = false
