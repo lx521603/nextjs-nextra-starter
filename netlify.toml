@@ -8,7 +8,7 @@
 
 # 移除冲突的重写规则，让 Next.js 处理路由
 [[plugins]]
-  package = "@netlify/plugin-nextjs@5.14.0"
+  package = "netlify-plugin-one"
 
 # 如果需要，只对非静态文件的路由进行回退
 [[redirects]]
