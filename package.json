@@ -1,6 +1,5 @@
 {
   "name": "薇薇的美妆站",
-  "type": "module",
   "version": "0.0.1",
   "description": "Next.js Nextra (v4) Tailwind CSS (v4) docs starter",
   "author": "薇薇 <x@glee.ch>",
