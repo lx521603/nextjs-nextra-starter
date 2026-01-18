@@ -7,9 +7,6 @@
   "*" = false
   directory = ""
 
-[edge_functions]
-  "*" = false
-
 [build.environment]
   NEXT_DISABLE_EDGE = "1"
   NEXT_PUBLIC_USE_EDGE = "0"
