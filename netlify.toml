@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# 完全禁用所有函数
+[functions]
+  "*" = false
+  directory = ""
+
+[edge_functions]
+  "*" = false
+
+[build.environment]
+  NEXT_DISABLE_EDGE = "1"
+  NEXT_PUBLIC_USE_EDGE = "0"
+  NEXT_PRIVATE_TARGET = "server"
+  NEXT_TELEMETRY_DISABLED = "1"
