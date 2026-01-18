@@ -57,6 +57,7 @@
     "@eslint/compat": "^1.4.0",
     "@iconify/json": "^2.2.389",
     "@iconify/tailwind4": "^1.0.6",
+    "@netlify/plugin-nextjs": "^5.15.5",
     "@next/third-parties": "16.1.1",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
