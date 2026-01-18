@@ -3,12 +3,8 @@
 
 [build]
   command = "npm run build"
-  # 注意：Publish 目录在 V5 插件下通常由插件自动处理
-  # 如果之前设置了 .next，建议尝试删除 publish 配置让它默认处理
-  publish = ".next" 
-
+  # 这里删除了 publish 这一行，让插件自动识别
+  
 [build.environment]
-  # 强制使用 Node 20 以上版本
   NODE_VERSION = "20"
-  # 如果你想尝试 Next.js 强制边缘计算图片优化（可选）
   NEXT_FORCE_EDGE_IMAGES = "true"
