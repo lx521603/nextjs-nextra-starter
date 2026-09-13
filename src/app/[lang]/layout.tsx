@@ -17,7 +17,7 @@ export const metadata = {
   icons: '/img/favicon.svg',
 } satisfies Metadata
 
-const repo = 'https://adarez.com'
+const repo = 'https://onee.be'
 
 const CustomBanner = async ({ lang }: { lang: 'zh' }) => {
   const { t } = await useServerLocale(lang)
