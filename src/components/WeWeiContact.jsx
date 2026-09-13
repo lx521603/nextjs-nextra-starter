@@ -55,17 +55,16 @@ export default function WeWeiContact() {
         </p>
         <p className="text-gray-700 leading-relaxed">
           📍 地址：
-          <br />• 保山吾悦、三馆广场
-          <br />• 芒市新玩厂落日集市（欢迎到店试用）
+          <br />• 芒市新玩厂（欢迎到店试用、洽谈）
         </p>
         <p className="text-gray-700 leading-relaxed">
           🌏 服务区域：
           <br />• 常驻保山、芒市
           <br />• 不定期在瑞丽、腾冲等地快闪出摊
+          <br />• 诚招全国代理
         </p>
         <p className="mt-2 text-gray-600 italic">欢迎联系咨询 👏</p>
       </div>
     </motion.section>
   )
 }
-
