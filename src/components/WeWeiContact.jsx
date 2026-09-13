@@ -54,7 +54,7 @@ export default function WeWeiContact() {
           </a>
         </p>
         <p className="text-gray-700 leading-relaxed">
-          📍 地址：
+          📍 公司地址：
           <br />• 芒市新玩厂（欢迎到店试用、洽谈）
         </p>
         <p className="text-gray-700 leading-relaxed">
